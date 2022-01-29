@@ -1,0 +1,98 @@
+.box-login {
+    border: 1px solid #c5c5c5;
+    border-radius: 2%;
+    width: 370px;
+    height: 465px;
+    padding-top: 0px;
+    padding-bottom: 3px;
+    margin-left: 710px;
+    margin-top: 150px;
+}
+
+.logo-senac img {
+    width: 150px;
+    float: right;
+    margin-right: 17px;
+    margin-top: 31px;
+}
+
+.titulo {
+    margin-top: 25%;
+    margin-left: 10%;
+    color: #002a80;
+    font-family: -webkit-pictograph;
+    font-size: 30px;
+}
+
+.matricula-login {
+    text-align: center;
+    margin-top: 40;
+    width: 100%;
+    float: left;
+}
+
+.matricula-login input {
+    background-image: url(../img/ico_matricula.png);
+    background-repeat: no-repeat;
+    background-position: 10%;
+    height: 55px;
+    padding: 12px;
+    width: 275px;
+    margin-top: 10px;
+    border: 2px solid #1d3e7c;
+    border-radius: 10%;
+    font-family: -webkit-pictograph;
+    font-size: 15;
+}
+
+.matricula-login img {
+    width:50%
+}
+
+.senha-login {
+    text-align: center;
+    margin-top: 25px;
+    width: 100%;
+    float: left;
+}
+
+.senha-login input {
+    background-image: url(../img/ico_senha.png);
+    background-repeat: no-repeat;
+    background-position: 10%;
+    height: 55px;
+    padding: 12px;
+    width: 275px;
+    margin-top: 10px;
+    border: 2px solid #1d3e7c;
+    border-radius: 10%;
+    font-family: -webkit-pictograph;
+    font-size: 15;
+}
+
+.btn-entrar {
+    margin-top: 40px;
+    margin-left: 47px;
+    width: 276px;
+    height: 55px;
+    background-color: transparent;
+    color: #edcca4;
+    border-color: #edcca4;
+    border-radius: 10%;
+    border: 2px;
+    border-style: solid;
+    font-family: -webkit-pictograph;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.links{
+    margin-left: 50px;
+}
+
+.links a{
+    color: #324c82;
+    text-decoration: double;
+    font-family: -webkit-pictograph;
+    font-size: 12px;
+}
