@@ -1,98 +1,113 @@
-.box-login {
+html {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;   
+    color: #c5c5c5;    
+}
+
+.boxlogin{
     border: 1px solid #c5c5c5;
-    border-radius: 2%;
-    width: 370px;
-    height: 465px;
-    padding-top: 0px;
-    padding-bottom: 3px;
-    margin-left: 710px;
-    margin-top: 150px;
+    width: 310px;
+    height: 450px;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.boxlogin h2{
+    margin-top: 75px!important;
+    color: #002a80;
+    text-align: left;
+    margin: 20px 0 30px;
+    font-family: -webkit-pictograph;
+}
+
+.boxlogin .login input{
+    width: 100%;
+    padding: 15px;
+    font-size: 14px;
+    border-color: #1d3e7c;
+    border-radius: 5px;
+    border-style: solid;
+    outline: none;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.boxlogin .login {
+    position: relative;
+}
+
+.boxlogin .login label {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    padding: 13px 0px;
+    font-size: 16px;
+    font-family: -webkit-pictograph;
+    pointer-events: none;
+}
+
+.boxlogin .login img {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    padding: 13px 0px;
+}
+
+.boxlogin .login input:focus~label,
+.boxlogin .login input:valid~label {
+    font-size: 0px;
+}
+
+.checkbox{
+    cursor: pointer;
+}
+
+.checkbox2{
+    font-family: -webkit-pictograph;
+    font-size: 12px;
+    color: #324c82;
+    text-decoration: double;
+}
+
+.boxlogin button {
+    width: 100%;
+    height: 55px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #edcca4;
+    border-color: #edcca4;
+    border-radius: 15px;
+    border: 2px;
+    border-style: solid;
+    font-family: -webkit-pictograph;
+    font-size: 22px;
+}
+
+#cadastro {
+    font-weight: bold;
+    color: #324c82;
+    font-family: -webkit-pictograph;
+    text-align: left;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 14px;
 }
 
 .logo-senac img {
     width: 150px;
     float: right;
-    margin-right: 17px;
-    margin-top: 31px;
-}
-
-.titulo {
-    margin-top: 25%;
-    margin-left: 10%;
-    color: #002a80;
-    font-family: -webkit-pictograph;
-    font-size: 30px;
-}
-
-.matricula-login {
-    text-align: center;
-    margin-top: 40;
-    width: 100%;
-    float: left;
-}
-
-.matricula-login input {
-    background-image: url(../img/ico_matricula.png);
-    background-repeat: no-repeat;
-    background-position: 10%;
-    height: 55px;
-    padding: 12px;
-    width: 275px;
     margin-top: 10px;
-    border: 2px solid #1d3e7c;
-    border-radius: 10%;
-    font-family: -webkit-pictograph;
-    font-size: 15;
-}
-
-.matricula-login img {
-    width:50%
-}
-
-.senha-login {
-    text-align: center;
-    margin-top: 25px;
-    width: 100%;
-    float: left;
-}
-
-.senha-login input {
-    background-image: url(../img/ico_senha.png);
-    background-repeat: no-repeat;
-    background-position: 10%;
-    height: 55px;
-    padding: 12px;
-    width: 275px;
-    margin-top: 10px;
-    border: 2px solid #1d3e7c;
-    border-radius: 10%;
-    font-family: -webkit-pictograph;
-    font-size: 15;
-}
-
-.btn-entrar {
-    margin-top: 40px;
-    margin-left: 47px;
-    width: 276px;
-    height: 55px;
-    background-color: transparent;
-    color: #edcca4;
-    border-color: #edcca4;
-    border-radius: 10%;
-    border: 2px;
-    border-style: solid;
-    font-family: -webkit-pictograph;
-    font-size: 22px;
-    cursor: pointer;
-}
-
-.links{
-    margin-left: 50px;
-}
-
-.links a{
-    color: #324c82;
-    text-decoration: double;
-    font-family: -webkit-pictograph;
-    font-size: 12px;
 }
