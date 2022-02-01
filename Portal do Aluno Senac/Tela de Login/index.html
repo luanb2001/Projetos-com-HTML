@@ -1,38 +1,36 @@
-<html>
+<!DOCTYPE html>
+<html lang="en"> 
     <head>
         <link rel="stylesheet" type="text/css" href="./css/main.css">
         <title>Tela de login</title>
     </head>
     <body>
-        <main class="container-login">
-            <div class="box-login">
-                <div class="logo-senac">
-                    <img src="./img/logoSenac.png" title="Painel do aluno" alt="Logomarca do Senac">
-                </div>
-                <div class="titulo">
-                    <b>Entrar</b>
-                </div>
-                <div class="Login">
-                    <div class="matricula-login">
-                        <input placeholder="           Matrícula" type="text" />
-                    </div>
-                    <div class="senha-login">
-                        <input placeholder="           Senha" type="text" />
-                    </div>   
-                    <div class="buttons">
-                        <button class="btn-entrar">
-                        <b>Entrar</b>
-                        </button>
-                        <input type="hidden" name="UNI_ID" value="1">
-                        <input type="hidden" name="action" id="action" value="login">
-                    </div>
-                    <div class="links">
-                        <a href="C:/Users/luanm/Downloads/Senac/projeto web/index.html">
-                            <b>Cadastrar</b>
-                        </a>
-                    </div>
-                </div>
+        <div class="boxlogin">
+            <div class="logo-senac">
+                <img src="./img/logoSenac.png" title="Logo do Senac">
             </div>
-        </main>
+        <h2>Entrar</h2>
+            <form>
+                <div class="login">
+                    <img src="./img/ico_matricula.png">
+                    <input type="text" required=""/>
+                    <label>Matrícula</label>
+                </div>
+                <div class="login">
+                    <img src="./img/ico_senha.png">
+                    <input type="password" required=""/>
+                    <label>Senha</label>
+                </div> 
+                <input type="checkbox" cheked="checked" class="checkbox">
+                <label class="checkbox2">Lembrar-me</label><br><br>
+                <button>Entrar</button>
+                <p id="cadastro">Cadastrar</p>
+                <!--<div class="links">
+                    <a href="C:/Users/luanm/Downloads/Senac/projeto web/index.html">
+                        <b>Cadastrar</b>
+                    </a>
+                </div>-->
+            </form>
+        </div>     
     </body>
 </html>
