@@ -13,7 +13,7 @@ body {
 }
 
 .boxlogin{
-    border: 1px solid #c5c5c5;
+    border: 2px solid #c5c5c5;
     width: 310px;
     height: 450px;
     padding: 20px 40px;
@@ -49,7 +49,7 @@ body {
 .boxlogin .login label {
     position: absolute;
     top: 0px;
-    left: 15px;
+    left: 20px;
     padding: 13px 0px;
     font-size: 16px;
     font-family: -webkit-pictograph;
@@ -95,7 +95,7 @@ body {
     font-size: 22px;
 }
 
-#cadastro {
+#cadastro b{
     font-weight: bold;
     color: #324c82;
     font-family: -webkit-pictograph;
