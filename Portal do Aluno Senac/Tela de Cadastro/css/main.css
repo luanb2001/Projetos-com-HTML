@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.box-cadastro{
+    border: 1px solid #c5c5c5;
+    border-top-left-radius: 0px!important;
+    border-bottom-left-radius: 0px!important;
+    width: 910px;
+    height: 600px;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.box-titulo {
+    border: 2px solid transparent;
+    border-top-right-radius: 0px!important;
+    border-bottom-right-radius: 0px!important;
+    border-radius: 10px;
+    font-family: -webkit-pictograph;
+    color: #fff;
+    width: 240px;
+    height: 600px;
+    background-color: #052f83;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.box-titulo h2{
+    padding-top: 35%;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset:nth-child(1){
+    display: flex;
+    margin-top: 13%;
+}
+
+fieldset:nth-child(2){
+    display: flex;
+}
+
+fieldset:nth-child(3){
+    display: flex;
+}
+
+fieldset:nth-child(4){
+    display: flex;
+}
+
+.container input {
+    margin: 10px 10px;
+    width: calc(100% - 20px);
+    height: 60px;
+    background-color: transparent;
+    border-color: #052f83;
+    border-radius: 4px;
+    border-style: solid;
+    outline: none;
+    font-size:17px;
+    padding-left: 10px;
+}
+
+.box-cadastro button{
+    float: right;
+    margin-right: 25%;
+    width: 50%;
+    height: 55px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #edcca4;
+    border-color: #edcca4;
+    border-radius: 15px;
+    border: 2px;
+    border-style: solid;
+    font-family: -webkit-pictograph;
+    font-size: 22px;
+    margin-top: 5%;
+}
+
+.box-cadastro .container{
+    position: relative;
+}
+
+.box-cadastro .container label {
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    padding: 26px 0px;
+    font-size: 16px;
+    font-family: -webkit-pictograph;
+    color: #c5c5c5;
+    pointer-events: none;
+}
+
+.box-cadastro .container input:focus~label,
+.box-cadastro .container input:valid~label {
+    font-size: 0px;
+}
+
+.logo-senac img {
+    width: 150px;
+    float: right;
+    margin-top: 10px;
+}
