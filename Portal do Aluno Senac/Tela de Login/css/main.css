@@ -25,7 +25,7 @@ body {
     color: #002a80;
     text-align: left;
     margin: 20px 0 30px;
-    font-family: -webkit-pictograph;
+    font-family: system-ui;
 }
 
 .boxlogin .login input{
@@ -52,7 +52,7 @@ body {
     left: 15px;
     padding: 12px 0px;
     font-size: 14px;
-    font-family: -webkit-pictograph;
+    font-family: system-ui;
     pointer-events: none;
 }
 
@@ -73,7 +73,7 @@ body {
 }
 
 .checkbox2{
-    font-family: -webkit-pictograph;
+    font-family: system-ui;
     font-size: 12px;
     color: #324c82;
     text-decoration: double;
@@ -90,7 +90,7 @@ body {
     border-radius: 13px;
     border: 1px;
     border-style: solid;
-    font-family: -webkit-pictograph;
+    font-family: system-ui;
     font-size: 20px;
     margin-bottom: -10px;
 }
@@ -98,7 +98,7 @@ body {
 #cadastro b{
     font-weight: bold;
     color: #324c82;
-    font-family: -webkit-pictograph;
+    font-family: system-ui;
     text-align: left;
     cursor: pointer;
     margin-top: 5px;
